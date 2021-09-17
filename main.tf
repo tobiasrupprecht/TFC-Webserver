@@ -10,6 +10,8 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
+#VCS driven test
+
 module "webserver-eu-west-1" {
   source            = "app.terraform.io/hashicorp-tobiasrupprecht/webserver/aws"
   version           = "0.0.2"
